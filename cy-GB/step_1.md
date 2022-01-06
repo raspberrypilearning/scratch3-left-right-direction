@@ -1,15 +1,15 @@
 
-When you add a sprite, its `rotation-style`{:class="block3motion"} is set to `all around`{:class="block3motion"}. If you make the sprite point left (-90 degreed) then the sprite costume will go upside down when the sprite rotates!
+Pan fyddi di'n ychwanegu coflun, mae ei `arddull-cylchdroi`{:class="block3motion"} wedi'i osod ar `cylch cyfan`{:class="block3motion"}. Os wyt ti'n gwneud i'r coflun bwyntio i'r chwith (-90 gradd) yna bydd gwisg y coflun yn mynd ben i waered pan fydd y coflun yn cylchdroi!
 
-Sometimes this is what you want, but if you have a sprite that moves left and right then you often want the sprite to point left or right depending on the direction it is facing.
+Weithiau byddi di am weld hyn yn digwydd, ond os yw dy goflun yn symud i'r chwith ac wedyn i'r dde, fel arfer rwyt ti am i'r coflun bwyntio i'r chwith neu'r dde yn dibynnu ar ba ffordd mae'n wynebu.
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right`{:class="block3motion"} to stop a sprite turning upside down:
+Clicia ar yr eicon **Chwith/Dde** yn y canol i newid yr arddull cylchdroi i `chwith-dde`{:class="block3motion"} i atal y coflun rhag troi ben i waered:
 
 ![](images/sprite-pane-direction.png)
 
-There's also a code block that you can use:
+Mae yna hefyd floc cod y galli di ei ddefnyddio:
 
 ```blocks3
-set rotation style [left-right v]
+gosod steil cylchdroi [left-right v]
 ```
 
