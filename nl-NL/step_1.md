@@ -1,13 +1,13 @@
 
-When you add a sprite, its `rotation-style`{:class="block3motion"} is set to `all around`{:class="block3motion"}. If you make the sprite point left (-90 degreed) then the sprite costume will go upside down when the sprite rotates!
+Wanneer je een sprite toevoegt, wordt de `draaistijl`{:class="block3motion"} ingesteld op `helemaal rond`{:class="block3motion"}. Als je de sprite naar links laat wijzen (-90 graden), dan gaat het sprite-uiterlijk ondersteboven staan!
 
-Sometimes this is what you want, but if you have a sprite that moves left and right then you often want the sprite to point left or right depending on the direction it is facing.
+Soms is dit wat je wilt, maar als je een sprite hebt die naar links en rechts beweegt, wil je vaak dat de sprite naar links of rechts wijst, afhankelijk van de richting waarin hij kijkt.
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right`{:class="block3motion"} to stop a sprite turning upside down:
+Klik op het **Links/Rechts** icoon in het midden om de rotatiestijl te veranderen in `links-rechts`{:class="block3motion"} om te voorkomen dat een sprite ondersteboven draait:
 
 ![](images/sprite-pane-direction.png)
 
-There's also a code block that you can use:
+Er is ook een codeblok dat je kunt gebruiken:
 
 ```blocks3
 set rotation style [left-right v]
