@@ -1,5 +1,5 @@
 
-Wanneer je een sprite toevoegt, wordt de `draaistijl`{:class="block3motion"} ingesteld op `helemaal rond`{:class="block3motion"}. Als je de sprite naar links laat wijzen (-90 graden), dan gaat het sprite-uiterlijk ondersteboven staan!
+Wanneer je een sprite toevoegt, wordt de `draaistijl`{:class="block3motion"} ingesteld op `helemaal rond`{:class="block3motion"}. If you make the sprite point left (-90 degrees) then the sprite costume will go upside down when the sprite rotates!
 
 Soms is dit wat je wilt, maar als je een sprite hebt die naar links en rechts beweegt, wil je vaak dat de sprite naar links of rechts wijst, afhankelijk van de richting waarin hij kijkt.
 
