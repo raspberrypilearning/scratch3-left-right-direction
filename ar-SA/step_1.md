@@ -1,13 +1,13 @@
 
-When you add a sprite, its `rotation-style`{:class="block3motion"} is set to `all around`{:class="block3motion"}. If you make the sprite point left (-90 degrees) then the sprite costume will go upside down when the sprite rotates!
+عند إضافة كائن ما ، يتم تعيين  `نمط التدوير`{: class = "block3motion"} في `جميع أنحاء`{: class = "block3motion"}. إذا جعلت نقطة الكائن يسارًا (-90 درجة) ، فسينقلب مظهر الكائن رأسًا على عقب عندما يدور الكائن!
 
-Sometimes this is what you want, but if you have a sprite that moves left and right then you often want the sprite to point left or right depending on the direction it is facing.
+في بعض الأحيان يكون هذا ما تريده ، ولكن إذا كان لديك كائن يتحرك إلى اليسار واليمين ، فغالبًا ما تريد أن يشير الكائن إلى اليسار أو اليمين حسب الاتجاه الذي يواجهه.
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right`{:class="block3motion"} to stop a sprite turning upside down:
+انقر على **يسار / يمين** في المنتصف لتغيير نمط التدوير إلى `يمين-يسار`{: class = "block3motion"} لإيقاف انعكاس الكائن رأسًا على عقب:
 
 ![](images/sprite-pane-direction.png)
 
-There's also a code block that you can use:
+هناك أيضًا مقاطع برمجية يمكنك استخدامها:
 
 ```blocks3
 set rotation style [left-right v]
