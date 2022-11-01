@@ -1,13 +1,13 @@
 
-When you add a sprite, its `rotation-style`{:class="block3motion"} is set to `all around`{:class="block3motion"}. If you make the sprite point left (-90 degrees) then the sprite costume will go upside down when the sprite rotates!
+Коли ти додаєш спрайт, його `стиль обертання`{:class="block3motion"} встановлений на `навколо`{:class="block3motion"}. Якщо зробити точку спрайта ліворуч (-90 градусів), то при обертанні спрайта образ буде перевертатися головою вниз!
 
-Sometimes this is what you want, but if you have a sprite that moves left and right then you often want the sprite to point left or right depending on the direction it is facing.
+Іноді саме це і потрібно, але якщо у тебе є спрайт, який рухається вліво і вправо, то зазвичай ти хочеш, щоб спрайт вказував вліво або вправо в залежності від напрямку, в якому він стоїть.
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right`{:class="block3motion"} to stop a sprite turning upside down:
+Натисни на іконку **Зліва-направо**, яка знаходиться посередині, щоб змінити стиль обертання на `вліво-вправо`{:class="block3motion"}, щоб зупинити спрайт, який перевернувся головою вниз:
 
 ![](images/sprite-pane-direction.png)
 
-There's also a code block that you can use:
+Також є блок коду, яким ти можеш скористатися:
 
 ```blocks3
 set rotation style [left-right v]
