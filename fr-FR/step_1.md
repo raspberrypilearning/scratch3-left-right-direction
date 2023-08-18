@@ -1,5 +1,5 @@
 
-Lorsque tu ajoutes un sprite, son `sens de rotation`{:class="block3motion"} est défini sur `à 360°`{:class="block3motion"}. If you make the sprite point left (-90 degrees) then the sprite costume will go upside down when the sprite rotates!
+Lorsque tu ajoutes un sprite, son `sens de rotation`{:class="block3motion"} est défini `à 360°`{:class="block3motion"}. Si tu orientes le sprite vers la gauche (-90 degrés), le costume de sprite ira à l'envers lorsque le sprite tournera !
 
 Parfois, c'est ce que tu veux, mais si tu as un sprite qui se déplace à gauche et à droite, tu veux souvent que le sprite pointe vers la gauche ou la droite en fonction de la direction dans laquelle il fait face.
 
