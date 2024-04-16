@@ -1,13 +1,13 @@
 
-When you add a sprite, its `rotation-style`{:class="block3motion"} is set to `all around`{:class="block3motion"}. If you make the sprite point left (-90 degrees) then the sprite costume will go upside down when the sprite rotates!
+Quando você adiciona um ator, seu `estilo-rotação`{:class="block3motion"} é definido como `rotação completa`{:class="block3motion"}. Se você apontar o ator para a esquerda (-90 graus), a fantasia do ator ficará de cabeça para baixo quando o ator girar!
 
-Sometimes this is what you want, but if you have a sprite that moves left and right then you often want the sprite to point left or right depending on the direction it is facing.
+Às vezes é isso que você quer, mas se você tem um ator que se move para a esquerda e para a direita, muitas vezes você quer que o ator aponte para a esquerda ou para a direita, dependendo da direção para a qual está voltado.
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right`{:class="block3motion"} to stop a sprite turning upside down:
+Clique no ícone **Esquerda/Direita** no meio para alterar o estilo de rotação para `esquerda-direita`{:class="block3motion"} para impedir que um ator vire de cabeça para baixo:
 
 ![](images/sprite-pane-direction.png)
 
-There's also a code block that you can use:
+Há também um bloco de código que você pode usar:
 
 ```blocks3
 set rotation style [left-right v]
