@@ -1,13 +1,13 @@
 
-When you add a sprite, its `rotation-style`{:class="block3motion"} is set to `all around`{:class="block3motion"}. If you make the sprite point left (-90 degrees) then the sprite costume will go upside down when the sprite rotates!
+スプライトを追加すると、その`回転方法`{:class="block3motion"}は`自由に回転`{:class="block3motion"}に設定されます。 スプライトを回転させて左(-90度)に向けると、スプライトのコスチュームが逆さまになってしまいます。
 
-Sometimes this is what you want, but if you have a sprite that moves left and right then you often want the sprite to point left or right depending on the direction it is facing.
+これが望ましいときもありますが、スプライトを左右に動かすときには、スプライトが動く方向に応じてスプライトを右や左に向けたいでしょう。
 
-Click on the **Left/Right** icon in the middle to change the rotation style to `left-right`{:class="block3motion"} to stop a sprite turning upside down:
+中央にある**左右のみ**アイコンをクリックして回転方法を`左右のみ`{:class="block3motion"}に変更し、スプライトが上下逆さまにならないようにします。
 
 ![](images/sprite-pane-direction.png)
 
-There's also a code block that you can use:
+コードブロックを使用することもできます。
 
 ```blocks3
 set rotation style [left-right v]
